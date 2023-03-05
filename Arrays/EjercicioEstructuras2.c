@@ -34,8 +34,8 @@ typedef struct Alumno{
 
 int main(){
 
-    //!Alumno Nuevo;//
-    //!char AlumnoNuevo[20];//
+    Alumno Nuevo;
+    char AlumnoNuevo[20];
 
     Alumno Jorge,Juan; // int Jorge, Juan
 
@@ -58,14 +58,43 @@ int main(){
     int opcion;
     scanf("%d",&opcion);
 
-    switch (opcion)
-    {
-    case /* constant-expression */:
-        /* code */
-        break;
-    
-    default:
-        break;
+    switch (opcion){
+        case 1:
+
+            printf("Seleccionaste ver Materias\n");
+            printf("De que alumno quieres ver las materias?\n");
+            printf("1) Jorge\n2)Juan\n3)%s",AlumnoNuevo);
+            int alumno;
+            scanf("%d",&alumno);
+
+            switch (alumno)
+            {
+            case 1:
+                printf("Seleccionaste al amuno Jorge\n");
+                printf("Sus materias son; \n1)%s\n2) %s\n3) %s\n",Jorge.Asignaturas[0].Materia,Jorge.Asignaturas[1].Materia,Jorge.Asignaturas[2].Materia);
+                break;
+            
+            case 2:
+
+             printf("Seleccionaste al amuno Juan\n");
+                printf("Sus materias son; \n1)%s\n2) %s\n3) %s\n",Jorge.Asignaturas[0].Materia,Jorge.Asignaturas[1].Materia,Jorge.Asignaturas[2].Materia);
+                break;
+
+
+                break;
+            }
+
+
+            break;
+
+
+        case 2:
+
+
+            break;
+
+
+        case 3:       
     }
     
 
