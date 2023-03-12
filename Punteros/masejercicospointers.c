@@ -3,7 +3,7 @@
 
 int main(){
 
-        //cuando el apuntador no tiene delante el * LO QUE ESTA HACIENDO ES COPIAR LA DIRECCION DE MEMORIA
+
     int entero = 10, *apuntadorEntero = &entero;
     float flotante = 2.5, *apuntadorFlotante =&flotante;
     char caracter = 'h', *apuntadorCaracter = &caracter;
