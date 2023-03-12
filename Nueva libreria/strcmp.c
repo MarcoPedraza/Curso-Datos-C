@@ -27,7 +27,7 @@ do{
 
     //! Validacion de Contraseña
 
-    if (strcmp(ClaveSecreta,UsuarioDigito) == 0){
+    if (strcmp(ClaveSecreta,UsuarioDigito) == 0){      // compara las dos y el == 0 quiere decir que tienen que ser iguales
         printf("\nBienvenido al sistema");
         break;
     }else{
