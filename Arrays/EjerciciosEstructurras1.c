@@ -1,4 +1,4 @@
-// Ejercicio Estrucuturas de datos
+// Ejercicio Estrucuturas de datos // cambio 1
 
 #include <string.h>
 #include <stdio.h>
